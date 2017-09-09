@@ -1,0 +1,16 @@
+[submodule "iiab"]
+	path = iiab
+	url = https://github.com/iiab/iiab
+	branch = master
+[submodule "iiab-admin-console"]
+	path = iiab-admin-console
+	url = https://github.com/iiab/iiab-admin-console
+	branch = master
+[submodule "iiab-menu"]
+	path = iiab-menu
+	url = https://github.com/iiab/iiab-menu
+	branch = master
+[submodule "iiab-factory"]
+	path = iiab-factory
+	url = https://github.com/iiab/iiab-factory
+	branch = master
