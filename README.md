@@ -17,7 +17,7 @@ need a computer with virtualization enabled and git, Vagrant (2.0 or later) and 
 
 2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`.
 
-3. Setup a vagrant machine with `vagrant up` and provision it with `vagrant provision`.
+3. Setup a vagrant machine with `vagrant up` and provision it with `vagrant provision`. Please select the available bridge network interface (wlan0 or eth0) that connects your host machine to the Internet. 
 
 4. You can now connect to your vagrant machine with `vagrant ssh`. All your local development files available as shared folder in `/opt/iiab` directory.
 
@@ -34,6 +34,6 @@ need a computer with virtualization enabled and git, Vagrant (2.0 or later) and 
 
           cd /opt/iiab/iiab-menu/
           ./cp-menus
-6. Hack away! You can commit your local changes and send pull request to IIAB project by setting a default git remote push setting. Learn more by reading [Working with Remotes in Pro Git Book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) 
+6. Hack away! You can commit your local changes and send pull request to IIAB project by setting a default git remote push setting. Learn more by reading [Working with Remotes in Pro Git Book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 
 7. Once you are done, you can stop your vagrant machine with `vagrant halt` or remove it completely with `vagrant destroy`.
