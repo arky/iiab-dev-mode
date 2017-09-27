@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
   # Add a bridge network interface
   config.vm.network "public_network", type: "dhcp", bridge: "eth0"
   config.vm.network "public_network", type: "dhcp", bridge: "wlan0"
-  config.vm.box = "ubuntu/xenial64"
+  config.vm.box = "debian/stretch64"
   config.vm.provision "shell", inline: "apt install git"
   # Fixes Apt hash sum mismatch error https://blog.packagecloud.io/eng/2016/03/21/apt-hash-sum-mismatch/
   config.vm.provision "shell", inline: "echo 'Acquire::CompressionTypes::Order:: \"gz\";' > /etc/apt/apt.conf.d/99compression-workaround"
