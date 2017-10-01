@@ -9,6 +9,8 @@ need a computer with virtualization enabled and git, Vagrant (2.0 or later) and 
  * [Vagrant (2.0 or later)](https://www.vagrantup.com/)
  * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
  * Editor ([Atom](www.atom.io), Emacs, Vi etc)
+ * [Ansible](http://www.ansible.com/)
+ * Ansible-lint and Ansible-review modules with `pip install ansible-{lint,review}`
 
 
 ## Usage
@@ -34,7 +36,6 @@ need a computer with virtualization enabled and git, Vagrant (2.0 or later) and 
 
           cd /opt/iiab/iiab-menu/
           ./cp-menus
-6. Hack away! You can commit your local changes and send pull request to IIAB project by setting a default git remote push setting with `git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`.  Learn more by reading this [blog post](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and [Working with Remotes in Pro Git Book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) 
+6. Hack away! You can commit your local changes and send pull request to IIAB project by setting a default git remote push setting with `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`.  Learn more by reading this [blog post](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and [Working with Remotes in Pro Git Book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 
 7. Once you are done, you can stop your vagrant machine with `vagrant halt` or remove it completely with `vagrant destroy`.
-
