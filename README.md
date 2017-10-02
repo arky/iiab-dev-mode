@@ -17,7 +17,7 @@ need a computer with virtualization enabled and git, Vagrant (2.0 or later) and 
 1. Check out this repository and its submodules on to your development machine.
 `git clone --recursive git@github.com:arky/iiab-dev-mode.git`
 
-2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`.
+2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`. You can update all the submodules to latest master using `git submodule foreach git pull origin master`
 
 3. Setup a vagrant machine with `vagrant up` and provision it with `vagrant provision`. Please select the available bridge network interface (wlan0 or eth0) that connects your host machine to the Internet.
 
