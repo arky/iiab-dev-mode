@@ -30,5 +30,5 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "#{Dir.pwd}", "/opt/iiab"
   # Setting SSH Shell default change directory to '/opt/iiab'
   config.vm.provision "shell", inline: "echo 'cd /opt/iiab' >> /home/vagrant/.profile"
-  config.vm.provision "shell", inline: "wget -c -P /opt/iiab/iiab/vars/ http://download.iiab.io/6.4/rpi/local_vars.yml"
+  config.vm.provision "shell", inline: "wget -c -P /opt/iiab/iiab/vars/ http://download.iiab.io/6.5/rpi/local_vars.yml"
 end
