@@ -1,16 +1,16 @@
 # Internet-in-a-Box (IIAB) Development Mode
 
 This repository provides a quick setup of Internet-in-a-Box (IIAB) development environment using Vagrant. You will
-need a computer with virtualization enabled and git, Vagrant (2.0 or later) and Virtualbox installed.
+need a computer with virtualization enabled and git, Vagrant (2.0 or later) and VirtualBox installed.
 
 ## Requirements
 
- * git
+ * [git](https://git-scm.com/)
  * [Vagrant (2.0 or later)](https://www.vagrantup.com/)
  * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
  * Editor ([Atom](www.atom.io), Emacs, Vi etc)
  * [Ansible](http://www.ansible.com/)
- * Ansible-lint and Ansible-review modules with `pip install ansible-{lint,review}`
+ * [Ansible-lint](https://github.com/willthames/ansible-lint) and [Ansible-review)[https://github.com/willthames/ansible-review] tools
 
 
 ## Usage
